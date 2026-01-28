@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "my_custom_srvs__py",
+		"source" : "/home/vlad/ros2_s/build/my_custom_srvs/my_custom_srvs__py"
+	}
+}

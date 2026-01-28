@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_custom_srvs/srv/CalculateTwoNumbers.srv
+// generated code does not contain a copyright notice
+
+
+module my_custom_srvs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Запрос")
+    struct CalculateTwoNumbers_Request {
+      int32 a;
+
+      int32 b;
+    };
+    @verbatim (language="comment", text=
+      "Ответ")
+    struct CalculateTwoNumbers_Response {
+      int32 sum;
+    };
+  };
+};

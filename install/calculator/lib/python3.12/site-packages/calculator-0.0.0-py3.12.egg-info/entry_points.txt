@@ -1,0 +1,3 @@
+[console_scripts]
+sum_client = calculator.sum_client:main
+sum_server = calculator.sum_server:main

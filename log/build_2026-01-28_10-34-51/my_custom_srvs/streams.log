@@ -1,0 +1,152 @@
+[0.232s] Invoking command in '/home/vlad/ros2_s/build/my_custom_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vlad/ros2_s/install/calculator:/home/vlad/ros2_s2/install/calculator:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vlad/ros2_s/build/my_custom_srvs -- -j8 -l8
+[0.281s] [  2%] Built target my_custom_srvs__rosidl_generator_type_description
+[0.291s] [  2%] Built target ament_cmake_python_copy_my_custom_srvs
+[0.307s] [  5%] Built target my_custom_srvs__cpp
+[0.308s] [ 20%] Built target my_custom_srvs__rosidl_generator_c
+[0.346s] [ 29%] Built target my_custom_srvs__rosidl_typesupport_introspection_c
+[0.347s] [ 38%] Built target my_custom_srvs__rosidl_typesupport_c
+[0.347s] [ 47%] Built target my_custom_srvs__rosidl_typesupport_fastrtps_cpp
+[0.348s] [ 55%] Built target my_custom_srvs__rosidl_typesupport_introspection_cpp
+[0.349s] [ 64%] Built target my_custom_srvs__rosidl_typesupport_fastrtps_c
+[0.350s] [ 73%] Built target my_custom_srvs__rosidl_typesupport_cpp
+[0.372s] [ 73%] Built target my_custom_srvs
+[0.393s] [ 76%] Built target my_custom_srvs__py
+[0.421s] [ 82%] Built target my_custom_srvs__rosidl_generator_py
+[0.454s] [ 88%] Built target my_custom_srvs_s__rosidl_typesupport_introspection_c
+[0.455s] [ 94%] Built target my_custom_srvs_s__rosidl_typesupport_c
+[0.462s] [100%] Built target my_custom_srvs_s__rosidl_typesupport_fastrtps_c
+[0.608s] running egg_info
+[0.640s] writing my_custom_srvs.egg-info/PKG-INFO
+[0.641s] writing dependency_links to my_custom_srvs.egg-info/dependency_links.txt
+[0.641s] writing top-level names to my_custom_srvs.egg-info/top_level.txt
+[0.732s] reading manifest file 'my_custom_srvs.egg-info/SOURCES.txt'
+[0.733s] writing manifest file 'my_custom_srvs.egg-info/SOURCES.txt'
+[0.760s] [100%] Built target ament_cmake_python_build_my_custom_srvs_egg
+[0.773s] Invoked command in '/home/vlad/ros2_s/build/my_custom_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vlad/ros2_s/install/calculator:/home/vlad/ros2_s2/install/calculator:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vlad/ros2_s/build/my_custom_srvs -- -j8 -l8
+[0.784s] Invoking command in '/home/vlad/ros2_s/build/my_custom_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vlad/ros2_s/install/calculator:/home/vlad/ros2_s2/install/calculator:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vlad/ros2_s/build/my_custom_srvs
+[0.792s] -- Install configuration: ""
+[0.792s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/ament_index/resource_index/rosidl_interfaces/my_custom_srvs
+[0.792s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/srv/CalculateTwoNumbers.json
+[0.793s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs
+[0.793s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv
+[0.793s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail
+[0.793s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__functions.c
+[0.793s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__struct.h
+[0.793s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__functions.h
+[0.793s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__type_support.h
+[0.793s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__type_support.c
+[0.793s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__description.c
+[0.794s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/calculate_two_numbers.h
+[0.794s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/msg
+[0.794s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/msg/rosidl_generator_c__visibility_control.h
+[0.794s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/environment/library_path.sh
+[0.794s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/environment/library_path.dsv
+[0.794s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/lib/libmy_custom_srvs__rosidl_generator_c.so
+[0.794s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs
+[0.795s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv
+[0.795s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail
+[0.795s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__rosidl_typesupport_fastrtps_c.h
+[0.795s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/msg
+[0.795s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.795s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/lib/libmy_custom_srvs__rosidl_typesupport_fastrtps_c.so
+[0.795s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs
+[0.795s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv
+[0.796s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail
+[0.796s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__rosidl_typesupport_introspection_c.h
+[0.796s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__type_support.c
+[0.796s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/msg
+[0.796s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.796s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/lib/libmy_custom_srvs__rosidl_typesupport_introspection_c.so
+[0.796s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/lib/libmy_custom_srvs__rosidl_typesupport_c.so
+[0.796s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs
+[0.797s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv
+[0.797s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail
+[0.797s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__type_support.hpp
+[0.797s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__traits.hpp
+[0.797s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__builder.hpp
+[0.797s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__struct.hpp
+[0.797s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/calculate_two_numbers.hpp
+[0.797s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/msg
+[0.798s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.798s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs
+[0.798s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv
+[0.798s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail
+[0.798s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__rosidl_typesupport_fastrtps_cpp.hpp
+[0.798s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/dds_fastrtps
+[0.798s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/msg
+[0.799s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.799s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/lib/libmy_custom_srvs__rosidl_typesupport_fastrtps_cpp.so
+[0.799s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs
+[0.799s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv
+[0.799s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail
+[0.799s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__rosidl_typesupport_introspection_cpp.hpp
+[0.799s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__type_support.cpp
+[0.799s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/lib/libmy_custom_srvs__rosidl_typesupport_introspection_cpp.so
+[0.800s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/lib/libmy_custom_srvs__rosidl_typesupport_cpp.so
+[0.800s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/environment/pythonpath.sh
+[0.800s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/environment/pythonpath.dsv
+[0.800s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs-0.0.0-py3.12.egg-info
+[0.800s] -- Installing: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs-0.0.0-py3.12.egg-info/PKG-INFO
+[0.800s] -- Installing: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.800s] -- Installing: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.800s] -- Installing: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs-0.0.0-py3.12.egg-info/top_level.txt
+[0.800s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs
+[0.801s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/my_custom_srvs_s__rosidl_typesupport_c.so
+[0.801s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/my_custom_srvs_s__rosidl_typesupport_fastrtps_c.so
+[0.801s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/_my_custom_srvs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.801s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/my_custom_srvs_s__rosidl_typesupport_introspection_c.so
+[0.801s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/__init__.py
+[0.801s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/srv
+[0.801s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/srv/_calculate_two_numbers_s.c
+[0.801s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/srv/__init__.py
+[0.801s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/srv/_calculate_two_numbers.py
+[0.801s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/_my_custom_srvs_s.ep.rosidl_typesupport_c.c
+[0.802s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/_my_custom_srvs_s.ep.rosidl_typesupport_introspection_c.c
+[0.838s] Listing '/home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs'...
+[0.838s] Listing '/home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/srv'...
+[0.845s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/my_custom_srvs_s__rosidl_typesupport_fastrtps_c.so
+[0.845s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/my_custom_srvs_s__rosidl_typesupport_introspection_c.so
+[0.845s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/my_custom_srvs_s__rosidl_typesupport_c.so
+[0.846s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/lib/libmy_custom_srvs__rosidl_generator_py.so
+[0.846s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/srv/CalculateTwoNumbers.idl
+[0.846s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/srv/CalculateTwoNumbers.srv
+[0.846s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/ament_index/resource_index/package_run_dependencies/my_custom_srvs
+[0.847s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/ament_index/resource_index/parent_prefix_path/my_custom_srvs
+[0.847s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/environment/ament_prefix_path.sh
+[0.847s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/environment/ament_prefix_path.dsv
+[0.847s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/environment/path.sh
+[0.847s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/environment/path.dsv
+[0.847s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/local_setup.bash
+[0.847s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/local_setup.sh
+[0.848s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/local_setup.zsh
+[0.848s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/local_setup.dsv
+[0.848s] -- Installing: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/package.dsv
+[0.848s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/ament_index/resource_index/packages/my_custom_srvs
+[0.848s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/export_my_custom_srvs__rosidl_generator_cExport.cmake
+[0.848s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/export_my_custom_srvs__rosidl_generator_cExport-noconfig.cmake
+[0.848s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/export_my_custom_srvs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.848s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/export_my_custom_srvs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.849s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/my_custom_srvs__rosidl_typesupport_introspection_cExport.cmake
+[0.849s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/my_custom_srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.849s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/my_custom_srvs__rosidl_typesupport_cExport.cmake
+[0.849s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/my_custom_srvs__rosidl_typesupport_cExport-noconfig.cmake
+[0.849s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/export_my_custom_srvs__rosidl_generator_cppExport.cmake
+[0.849s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/export_my_custom_srvs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.849s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/export_my_custom_srvs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.849s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/my_custom_srvs__rosidl_typesupport_introspection_cppExport.cmake
+[0.849s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/my_custom_srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.850s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/my_custom_srvs__rosidl_typesupport_cppExport.cmake
+[0.850s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/my_custom_srvs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.850s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/export_my_custom_srvs__rosidl_generator_pyExport.cmake
+[0.850s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/export_my_custom_srvs__rosidl_generator_pyExport-noconfig.cmake
+[0.850s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/rosidl_cmake-extras.cmake
+[0.850s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.850s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.851s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.851s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/ament_cmake_export_targets-extras.cmake
+[0.851s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.851s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.851s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/my_custom_srvsConfig.cmake
+[0.851s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/my_custom_srvsConfig-version.cmake
+[0.852s] -- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/package.xml
+[0.852s] Invoked command in '/home/vlad/ros2_s/build/my_custom_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vlad/ros2_s/install/calculator:/home/vlad/ros2_s2/install/calculator:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vlad/ros2_s/build/my_custom_srvs

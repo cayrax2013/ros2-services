@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "my_custom_srvs/srv/CalculateTwoNumbers_Response",
+      "fields": [
+        {
+          "name": "sum",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "my_custom_srvs/srv/CalculateTwoNumbers_Response",
+      "hash_string": "RIHS01_15e446c28378a6f8cfe36c7117d8aa9d90eef64d4b7747608937837877bdb80b"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[0.828s] Invoking command in '/home/vlad/ros2_s/src/calculator': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vlad/ros2_s/build/calculator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vlad/ros2_s/install/calculator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/calculator build --build-base /home/vlad/ros2_s/build/calculator/build install --record /home/vlad/ros2_s/build/calculator/install.log --single-version-externally-managed install_data
+[1.120s] running egg_info
+[1.139s] writing ../../build/calculator/calculator.egg-info/PKG-INFO
+[1.139s] writing dependency_links to ../../build/calculator/calculator.egg-info/dependency_links.txt
+[1.140s] writing entry points to ../../build/calculator/calculator.egg-info/entry_points.txt
+[1.140s] writing requirements to ../../build/calculator/calculator.egg-info/requires.txt
+[1.140s] writing top-level names to ../../build/calculator/calculator.egg-info/top_level.txt
+[1.181s] reading manifest file '../../build/calculator/calculator.egg-info/SOURCES.txt'
+[1.182s] writing manifest file '../../build/calculator/calculator.egg-info/SOURCES.txt'
+[1.182s] running build
+[1.182s] running build_py
+[1.182s] running install
+[1.189s] running install_lib
+[1.212s] running install_data
+[1.212s] running install_egg_info
+[1.233s] removing '/home/vlad/ros2_s/install/calculator/lib/python3.12/site-packages/calculator-0.0.0-py3.12.egg-info' (and everything under it)
+[1.234s] Copying ../../build/calculator/calculator.egg-info to /home/vlad/ros2_s/install/calculator/lib/python3.12/site-packages/calculator-0.0.0-py3.12.egg-info
+[1.235s] running install_scripts
+[1.373s] Installing sum_client script to /home/vlad/ros2_s/install/calculator/lib/calculator
+[1.373s] Installing sum_server script to /home/vlad/ros2_s/install/calculator/lib/calculator
+[1.373s] writing list of installed files to '/home/vlad/ros2_s/build/calculator/install.log'
+[1.396s] Invoked command in '/home/vlad/ros2_s/src/calculator' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vlad/ros2_s/build/calculator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vlad/ros2_s/install/calculator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/calculator build --build-base /home/vlad/ros2_s/build/calculator/build install --record /home/vlad/ros2_s/build/calculator/install.log --single-version-externally-managed install_data

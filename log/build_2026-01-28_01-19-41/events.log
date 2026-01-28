@@ -1,0 +1,299 @@
+[0.000000] (-) TimerEvent: {}
+[0.000683] (my_custom_srvs) JobQueued: {'identifier': 'my_custom_srvs', 'dependencies': OrderedDict()}
+[0.000777] (calculator) JobQueued: {'identifier': 'calculator', 'dependencies': OrderedDict({'my_custom_srvs': '/home/vlad/ros2_s/install/my_custom_srvs'})}
+[0.000803] (my_custom_srvs) JobStarted: {'identifier': 'my_custom_srvs'}
+[0.009284] (my_custom_srvs) JobProgress: {'identifier': 'my_custom_srvs', 'progress': 'cmake'}
+[0.009933] (my_custom_srvs) JobProgress: {'identifier': 'my_custom_srvs', 'progress': 'build'}
+[0.010681] (my_custom_srvs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vlad/ros2_s/build/my_custom_srvs', '--', '-j8', '-l8'], 'cwd': '/home/vlad/ros2_s/build/my_custom_srvs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vlad', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vlad/ros2_s/install/my_custom_srvs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/vlad', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/vlad/ros2_s/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2808', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/vlad/ros2_s/install:/home/vlad/ros2_s2/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'vlad', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vlad', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/home/vlad/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/HPL:@/tmp/.ICE-unix/2776,unix/HPL:/tmp/.ICE-unix/2776', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6020d8d9_869b_4709_b31b_1b43deeac6d5', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'ru_RU.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.144', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vlad/ros2_s/install/my_custom_srvs:/home/vlad/ros2_s/install/calculator:/home/vlad/ros2_s2/install/calculator:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/vlad/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GSK_RENDERER': 'gl', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vlad/ros2_s/build/my_custom_srvs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/vlad/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/vlad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages:/home/vlad/ros2_s/install/my_custom_srvs/lib/python3.11/site-packages:/home/vlad/ros2_s/install/calculator/lib/python3.12/site-packages:/home/vlad/ros2_s2/install/calculator/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/vlad/ros2_s/install/my_custom_srvs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vlad/ros2_s/install/calculator:/home/vlad/ros2_s2/install/calculator:/opt/ros/jazzy'}), 'shell': False}
+[0.036464] (my_custom_srvs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.061749] (my_custom_srvs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.099698] (-) TimerEvent: {}
+[0.140055] (my_custom_srvs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.142548] (my_custom_srvs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.179731] (my_custom_srvs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199838] (-) TimerEvent: {}
+[0.209936] (my_custom_srvs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.299927] (-) TimerEvent: {}
+[0.400160] (-) TimerEvent: {}
+[0.483566] (my_custom_srvs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[0.500240] (-) TimerEvent: {}
+[0.572123] (my_custom_srvs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.600382] (-) TimerEvent: {}
+[0.686492] (my_custom_srvs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.687572] (my_custom_srvs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[0.700483] (-) TimerEvent: {}
+[0.800691] (-) TimerEvent: {}
+[0.900911] (-) TimerEvent: {}
+[0.935891] (my_custom_srvs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[0.945957] (my_custom_srvs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.955305] (my_custom_srvs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.956458] (my_custom_srvs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.958247] (my_custom_srvs) StdoutLine: {'line': b'-- Configuring done (0.9s)\n'}
+[0.994562] (my_custom_srvs) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.000991] (-) TimerEvent: {}
+[1.008481] (my_custom_srvs) StdoutLine: {'line': b'-- Build files have been written to: /home/vlad/ros2_s/build/my_custom_srvs\n'}
+[1.040087] (my_custom_srvs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[1.048903] (my_custom_srvs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_my_custom_srvs\n'}
+[1.101066] (-) TimerEvent: {}
+[1.201278] (-) TimerEvent: {}
+[1.229058] (my_custom_srvs) StdoutLine: {'line': b'[  2%] Built target my_custom_srvs__rosidl_generator_type_description\n'}
+[1.238873] (my_custom_srvs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.248435] (my_custom_srvs) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.265696] (my_custom_srvs) StdoutLine: {'line': b'running egg_info\n'}
+[1.288751] (my_custom_srvs) StdoutLine: {'line': b'writing my_custom_srvs.egg-info/PKG-INFO\n'}
+[1.289014] (my_custom_srvs) StdoutLine: {'line': b'writing dependency_links to my_custom_srvs.egg-info/dependency_links.txt\n'}
+[1.289193] (my_custom_srvs) StdoutLine: {'line': b'writing top-level names to my_custom_srvs.egg-info/top_level.txt\n'}
+[1.301362] (-) TimerEvent: {}
+[1.352138] (my_custom_srvs) StdoutLine: {'line': b"reading manifest file 'my_custom_srvs.egg-info/SOURCES.txt'\n"}
+[1.352977] (my_custom_srvs) StdoutLine: {'line': b"writing manifest file 'my_custom_srvs.egg-info/SOURCES.txt'\n"}
+[1.379060] (my_custom_srvs) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_my_custom_srvs_egg\n'}
+[1.401468] (-) TimerEvent: {}
+[1.501695] (-) TimerEvent: {}
+[1.542459] (my_custom_srvs) StdoutLine: {'line': b'[  8%] Built target my_custom_srvs__cpp\n'}
+[1.562221] (my_custom_srvs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/my_custom_srvs__rosidl_generator_c.dir/rosidl_generator_c/my_custom_srvs/srv/detail/calculate_two_numbers__description.c.o\x1b[0m\n'}
+[1.562460] (my_custom_srvs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/my_custom_srvs__rosidl_generator_c.dir/rosidl_generator_c/my_custom_srvs/srv/detail/calculate_two_numbers__functions.c.o\x1b[0m\n'}
+[1.562622] (my_custom_srvs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/my_custom_srvs__rosidl_generator_c.dir/rosidl_generator_c/my_custom_srvs/srv/detail/calculate_two_numbers__type_support.c.o\x1b[0m\n'}
+[1.601819] (-) TimerEvent: {}
+[1.631293] (my_custom_srvs) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libmy_custom_srvs__rosidl_generator_c.so\x1b[0m\n'}
+[1.665858] (my_custom_srvs) StdoutLine: {'line': b'[ 20%] Built target my_custom_srvs__rosidl_generator_c\n'}
+[1.675907] (my_custom_srvs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.676201] (my_custom_srvs) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.677549] (my_custom_srvs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.678110] (my_custom_srvs) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.678747] (my_custom_srvs) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.679920] (my_custom_srvs) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.701911] (-) TimerEvent: {}
+[1.802157] (-) TimerEvent: {}
+[1.902392] (-) TimerEvent: {}
+[1.993473] (my_custom_srvs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/my_custom_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_custom_srvs/srv/detail/dds_fastrtps/calculate_two_numbers__type_support.cpp.o\x1b[0m\n'}
+[2.002481] (-) TimerEvent: {}
+[2.018499] (my_custom_srvs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/my_custom_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_custom_srvs/srv/detail/calculate_two_numbers__type_support_c.cpp.o\x1b[0m\n'}
+[2.064582] (my_custom_srvs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/my_custom_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_custom_srvs/srv/calculate_two_numbers__type_support.cpp.o\x1b[0m\n'}
+[2.071427] (my_custom_srvs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_custom_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_custom_srvs/srv/calculate_two_numbers__type_support.cpp.o\x1b[0m\n'}
+[2.102657] (-) TimerEvent: {}
+[2.108767] (my_custom_srvs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/my_custom_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_custom_srvs/srv/detail/calculate_two_numbers__type_support.c.o\x1b[0m\n'}
+[2.110160] (my_custom_srvs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/my_custom_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_custom_srvs/srv/detail/calculate_two_numbers__type_support.cpp.o\x1b[0m\n'}
+[2.138786] (my_custom_srvs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libmy_custom_srvs__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.180938] (my_custom_srvs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libmy_custom_srvs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.199507] (my_custom_srvs) StdoutLine: {'line': b'[ 61%] Built target my_custom_srvs__rosidl_typesupport_c\n'}
+[2.202752] (-) TimerEvent: {}
+[2.224685] (my_custom_srvs) StdoutLine: {'line': b'[ 61%] Built target my_custom_srvs__rosidl_typesupport_introspection_c\n'}
+[2.302852] (-) TimerEvent: {}
+[2.403135] (-) TimerEvent: {}
+[2.476029] (my_custom_srvs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libmy_custom_srvs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.503244] (-) TimerEvent: {}
+[2.550182] (my_custom_srvs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libmy_custom_srvs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.556382] (my_custom_srvs) StdoutLine: {'line': b'[ 67%] Built target my_custom_srvs__rosidl_typesupport_cpp\n'}
+[2.565229] (my_custom_srvs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmy_custom_srvs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.603340] (-) TimerEvent: {}
+[2.618105] (my_custom_srvs) StdoutLine: {'line': b'[ 70%] Built target my_custom_srvs__rosidl_typesupport_fastrtps_c\n'}
+[2.630186] (my_custom_srvs) StdoutLine: {'line': b'[ 70%] Built target my_custom_srvs__rosidl_typesupport_introspection_cpp\n'}
+[2.635763] (my_custom_srvs) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libmy_custom_srvs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.703431] (-) TimerEvent: {}
+[2.705634] (my_custom_srvs) StdoutLine: {'line': b'[ 73%] Built target my_custom_srvs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.723777] (my_custom_srvs) StdoutLine: {'line': b'[ 73%] Built target my_custom_srvs\n'}
+[2.742151] (my_custom_srvs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.803540] (-) TimerEvent: {}
+[2.903760] (-) TimerEvent: {}
+[3.003981] (-) TimerEvent: {}
+[3.101955] (my_custom_srvs) StdoutLine: {'line': b'[ 76%] Built target my_custom_srvs__py\n'}
+[3.104076] (-) TimerEvent: {}
+[3.124513] (my_custom_srvs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/my_custom_srvs__rosidl_generator_py.dir/rosidl_generator_py/my_custom_srvs/srv/_calculate_two_numbers_s.c.o\x1b[0m\n'}
+[3.204151] (-) TimerEvent: {}
+[3.265932] (my_custom_srvs) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libmy_custom_srvs__rosidl_generator_py.so\x1b[0m\n'}
+[3.304240] (-) TimerEvent: {}
+[3.306338] (my_custom_srvs) StdoutLine: {'line': b'[ 82%] Built target my_custom_srvs__rosidl_generator_py\n'}
+[3.329650] (my_custom_srvs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/my_custom_srvs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/my_custom_srvs/_my_custom_srvs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.329901] (my_custom_srvs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/my_custom_srvs_s__rosidl_typesupport_c.dir/rosidl_generator_py/my_custom_srvs/_my_custom_srvs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.330094] (my_custom_srvs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/my_custom_srvs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/my_custom_srvs/_my_custom_srvs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.404341] (-) TimerEvent: {}
+[3.441424] (my_custom_srvs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/my_custom_srvs/my_custom_srvs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.448717] (my_custom_srvs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/my_custom_srvs/my_custom_srvs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.448967] (my_custom_srvs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/my_custom_srvs/my_custom_srvs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.471197] (my_custom_srvs) StdoutLine: {'line': b'[100%] Built target my_custom_srvs_s__rosidl_typesupport_c\n'}
+[3.479223] (my_custom_srvs) StdoutLine: {'line': b'[100%] Built target my_custom_srvs_s__rosidl_typesupport_fastrtps_c\n'}
+[3.479456] (my_custom_srvs) StdoutLine: {'line': b'[100%] Built target my_custom_srvs_s__rosidl_typesupport_introspection_c\n'}
+[3.490744] (my_custom_srvs) CommandEnded: {'returncode': 0}
+[3.491517] (my_custom_srvs) JobProgress: {'identifier': 'my_custom_srvs', 'progress': 'install'}
+[3.500936] (my_custom_srvs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vlad/ros2_s/build/my_custom_srvs'], 'cwd': '/home/vlad/ros2_s/build/my_custom_srvs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vlad', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vlad/ros2_s/install/my_custom_srvs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/vlad', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/vlad/ros2_s/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2808', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/vlad/ros2_s/install:/home/vlad/ros2_s2/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'vlad', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vlad', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/home/vlad/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/HPL:@/tmp/.ICE-unix/2776,unix/HPL:/tmp/.ICE-unix/2776', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6020d8d9_869b_4709_b31b_1b43deeac6d5', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'ru_RU.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.144', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vlad/ros2_s/install/my_custom_srvs:/home/vlad/ros2_s/install/calculator:/home/vlad/ros2_s2/install/calculator:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/vlad/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GSK_RENDERER': 'gl', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vlad/ros2_s/build/my_custom_srvs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/vlad/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/vlad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages:/home/vlad/ros2_s/install/my_custom_srvs/lib/python3.11/site-packages:/home/vlad/ros2_s/install/calculator/lib/python3.12/site-packages:/home/vlad/ros2_s2/install/calculator/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/vlad/ros2_s/install/my_custom_srvs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vlad/ros2_s/install/calculator:/home/vlad/ros2_s2/install/calculator:/opt/ros/jazzy'}), 'shell': False}
+[3.504426] (-) TimerEvent: {}
+[3.509131] (my_custom_srvs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.509459] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/ament_index/resource_index/rosidl_interfaces/my_custom_srvs\n'}
+[3.509577] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/srv/CalculateTwoNumbers.json\n'}
+[3.509825] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs\n'}
+[3.509928] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv\n'}
+[3.510088] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail\n'}
+[3.510207] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__functions.c\n'}
+[3.510324] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__struct.h\n'}
+[3.510440] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__functions.h\n'}
+[3.510587] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__type_support.h\n'}
+[3.510729] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__type_support.c\n'}
+[3.510846] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__description.c\n'}
+[3.510982] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/calculate_two_numbers.h\n'}
+[3.511122] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/msg\n'}
+[3.511230] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.511336] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/environment/library_path.sh\n'}
+[3.511451] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/environment/library_path.dsv\n'}
+[3.511572] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/lib/libmy_custom_srvs__rosidl_generator_c.so\n'}
+[3.511720] (my_custom_srvs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/vlad/ros2_s/install/my_custom_srvs/lib/libmy_custom_srvs__rosidl_generator_c.so" to ""\n'}
+[3.511834] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs\n'}
+[3.511948] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv\n'}
+[3.512119] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail\n'}
+[3.512227] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__rosidl_typesupport_fastrtps_c.h\n'}
+[3.512333] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/msg\n'}
+[3.512439] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.512628] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/lib/libmy_custom_srvs__rosidl_typesupport_fastrtps_c.so\n'}
+[3.512760] (my_custom_srvs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/vlad/ros2_s/install/my_custom_srvs/lib/libmy_custom_srvs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.512885] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs\n'}
+[3.513007] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv\n'}
+[3.513145] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail\n'}
+[3.513294] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__rosidl_typesupport_introspection_c.h\n'}
+[3.513403] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__type_support.c\n'}
+[3.513509] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/msg\n'}
+[3.513615] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.513808] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/lib/libmy_custom_srvs__rosidl_typesupport_introspection_c.so\n'}
+[3.513978] (my_custom_srvs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/vlad/ros2_s/install/my_custom_srvs/lib/libmy_custom_srvs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.514068] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/lib/libmy_custom_srvs__rosidl_typesupport_c.so\n'}
+[3.514425] (my_custom_srvs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/vlad/ros2_s/install/my_custom_srvs/lib/libmy_custom_srvs__rosidl_typesupport_c.so" to ""\n'}
+[3.514538] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs\n'}
+[3.514621] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv\n'}
+[3.514735] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail\n'}
+[3.514850] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__type_support.hpp\n'}
+[3.515000] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__traits.hpp\n'}
+[3.515136] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__builder.hpp\n'}
+[3.515254] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__struct.hpp\n'}
+[3.515395] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/calculate_two_numbers.hpp\n'}
+[3.515531] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/msg\n'}
+[3.515652] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[3.515764] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs\n'}
+[3.515878] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv\n'}
+[3.516018] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail\n'}
+[3.516132] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.516329] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/dds_fastrtps\n'}
+[3.516496] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/msg\n'}
+[3.516635] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.516777] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/lib/libmy_custom_srvs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.516934] (my_custom_srvs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/vlad/ros2_s/install/my_custom_srvs/lib/libmy_custom_srvs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.517105] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs\n'}
+[3.517179] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv\n'}
+[3.517254] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail\n'}
+[3.517323] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.517413] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/include/my_custom_srvs/my_custom_srvs/srv/detail/calculate_two_numbers__type_support.cpp\n'}
+[3.517480] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/lib/libmy_custom_srvs__rosidl_typesupport_introspection_cpp.so\n'}
+[3.517779] (my_custom_srvs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/vlad/ros2_s/install/my_custom_srvs/lib/libmy_custom_srvs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.518034] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/lib/libmy_custom_srvs__rosidl_typesupport_cpp.so\n'}
+[3.518608] (my_custom_srvs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/vlad/ros2_s/install/my_custom_srvs/lib/libmy_custom_srvs__rosidl_typesupport_cpp.so" to ""\n'}
+[3.518912] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/environment/pythonpath.sh\n'}
+[3.519034] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/environment/pythonpath.dsv\n'}
+[3.519113] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs-0.0.0-py3.12.egg-info\n'}
+[3.519225] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[3.519296] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[3.519444] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[3.519553] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[3.519628] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs\n'}
+[3.519699] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/my_custom_srvs_s__rosidl_typesupport_c.so\n'}
+[3.519848] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/my_custom_srvs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[3.520021] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/_my_custom_srvs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.520208] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/my_custom_srvs_s__rosidl_typesupport_introspection_c.so\n'}
+[3.520360] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/__init__.py\n'}
+[3.520491] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/srv\n'}
+[3.520621] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/srv/_calculate_two_numbers_s.c\n'}
+[3.520750] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/srv/__init__.py\n'}
+[3.520907] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/srv/_calculate_two_numbers.py\n'}
+[3.521068] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/_my_custom_srvs_s.ep.rosidl_typesupport_c.c\n'}
+[3.521197] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/_my_custom_srvs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.560395] (my_custom_srvs) StdoutLine: {'line': b"Listing '/home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs'...\n"}
+[3.560533] (my_custom_srvs) StdoutLine: {'line': b"Compiling '/home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/__init__.py'...\n"}
+[3.560603] (my_custom_srvs) StdoutLine: {'line': b"Listing '/home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/srv'...\n"}
+[3.560668] (my_custom_srvs) StdoutLine: {'line': b"Compiling '/home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/srv/__init__.py'...\n"}
+[3.560731] (my_custom_srvs) StdoutLine: {'line': b"Compiling '/home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/srv/_calculate_two_numbers.py'...\n"}
+[3.565679] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/my_custom_srvs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[3.566102] (my_custom_srvs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/my_custom_srvs_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.566457] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/my_custom_srvs_s__rosidl_typesupport_introspection_c.so\n'}
+[3.566846] (my_custom_srvs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/my_custom_srvs_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.567152] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/my_custom_srvs_s__rosidl_typesupport_c.so\n'}
+[3.567589] (my_custom_srvs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages/my_custom_srvs/my_custom_srvs_s__rosidl_typesupport_c.so" to ""\n'}
+[3.567862] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/lib/libmy_custom_srvs__rosidl_generator_py.so\n'}
+[3.568352] (my_custom_srvs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/vlad/ros2_s/install/my_custom_srvs/lib/libmy_custom_srvs__rosidl_generator_py.so" to ""\n'}
+[3.568606] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/srv/CalculateTwoNumbers.idl\n'}
+[3.568770] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/srv/CalculateTwoNumbers.srv\n'}
+[3.568864] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/ament_index/resource_index/package_run_dependencies/my_custom_srvs\n'}
+[3.568965] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/ament_index/resource_index/parent_prefix_path/my_custom_srvs\n'}
+[3.569063] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/environment/ament_prefix_path.sh\n'}
+[3.569154] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/environment/ament_prefix_path.dsv\n'}
+[3.569223] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/environment/path.sh\n'}
+[3.569292] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/environment/path.dsv\n'}
+[3.569388] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/local_setup.bash\n'}
+[3.569464] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/local_setup.sh\n'}
+[3.569527] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/local_setup.zsh\n'}
+[3.569594] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/local_setup.dsv\n'}
+[3.569676] (my_custom_srvs) StdoutLine: {'line': b'-- Installing: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/package.dsv\n'}
+[3.569751] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/ament_index/resource_index/packages/my_custom_srvs\n'}
+[3.569819] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/export_my_custom_srvs__rosidl_generator_cExport.cmake\n'}
+[3.569909] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/export_my_custom_srvs__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.569979] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/export_my_custom_srvs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.570082] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/export_my_custom_srvs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.570153] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/my_custom_srvs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.570227] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/my_custom_srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.570318] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/my_custom_srvs__rosidl_typesupport_cExport.cmake\n'}
+[3.570384] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/my_custom_srvs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.570468] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/export_my_custom_srvs__rosidl_generator_cppExport.cmake\n'}
+[3.570544] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/export_my_custom_srvs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.570629] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/export_my_custom_srvs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.570712] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/my_custom_srvs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.570797] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/my_custom_srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.570879] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/my_custom_srvs__rosidl_typesupport_cppExport.cmake\n'}
+[3.570964] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/my_custom_srvs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.571055] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/export_my_custom_srvs__rosidl_generator_pyExport.cmake\n'}
+[3.571137] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/export_my_custom_srvs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.571229] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/rosidl_cmake-extras.cmake\n'}
+[3.571296] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.571385] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.571464] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.571533] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.571632] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.571702] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.571770] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/my_custom_srvsConfig.cmake\n'}
+[3.571837] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/cmake/my_custom_srvsConfig-version.cmake\n'}
+[3.571922] (my_custom_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/vlad/ros2_s/install/my_custom_srvs/share/my_custom_srvs/package.xml\n'}
+[3.573731] (my_custom_srvs) CommandEnded: {'returncode': 0}
+[3.593311] (my_custom_srvs) JobEnded: {'identifier': 'my_custom_srvs', 'rc': 0}
+[3.594321] (calculator) JobStarted: {'identifier': 'calculator'}
+[3.604539] (-) TimerEvent: {}
+[3.704754] (-) TimerEvent: {}
+[3.805019] (-) TimerEvent: {}
+[3.905240] (-) TimerEvent: {}
+[4.005482] (-) TimerEvent: {}
+[4.105717] (-) TimerEvent: {}
+[4.205954] (-) TimerEvent: {}
+[4.306166] (-) TimerEvent: {}
+[4.381964] (calculator) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/calculator', 'build', '--build-base', '/home/vlad/ros2_s/build/calculator/build', 'install', '--record', '/home/vlad/ros2_s/build/calculator/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vlad/ros2_s/src/calculator', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vlad', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vlad/ros2_s/install/my_custom_srvs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/vlad', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/vlad/ros2_s/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2808', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/vlad/ros2_s/install:/home/vlad/ros2_s2/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'vlad', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vlad', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/home/vlad/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/HPL:@/tmp/.ICE-unix/2776,unix/HPL:/tmp/.ICE-unix/2776', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6020d8d9_869b_4709_b31b_1b43deeac6d5', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'ru_RU.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.144', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vlad/ros2_s/install/my_custom_srvs:/home/vlad/ros2_s/install/calculator:/home/vlad/ros2_s2/install/calculator:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/vlad/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GSK_RENDERER': 'gl', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vlad/ros2_s/build/calculator', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/vlad/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/vlad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/vlad/ros2_s/build/calculator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vlad/ros2_s/install/calculator/lib/python3.12/site-packages:/home/vlad/ros2_s/install/my_custom_srvs/lib/python3.12/site-packages:/home/vlad/ros2_s/install/my_custom_srvs/lib/python3.11/site-packages:/home/vlad/ros2_s/install/calculator/lib/python3.12/site-packages:/home/vlad/ros2_s2/install/calculator/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/vlad/ros2_s/install/my_custom_srvs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[4.406275] (-) TimerEvent: {}
+[4.506514] (-) TimerEvent: {}
+[4.606759] (-) TimerEvent: {}
+[4.650487] (calculator) StdoutLine: {'line': b'running egg_info\n'}
+[4.670236] (calculator) StdoutLine: {'line': b'writing ../../build/calculator/calculator.egg-info/PKG-INFO\n'}
+[4.670487] (calculator) StdoutLine: {'line': b'writing dependency_links to ../../build/calculator/calculator.egg-info/dependency_links.txt\n'}
+[4.670712] (calculator) StdoutLine: {'line': b'writing entry points to ../../build/calculator/calculator.egg-info/entry_points.txt\n'}
+[4.670859] (calculator) StdoutLine: {'line': b'writing requirements to ../../build/calculator/calculator.egg-info/requires.txt\n'}
+[4.670964] (calculator) StdoutLine: {'line': b'writing top-level names to ../../build/calculator/calculator.egg-info/top_level.txt\n'}
+[4.706869] (-) TimerEvent: {}
+[4.710097] (calculator) StdoutLine: {'line': b"reading manifest file '../../build/calculator/calculator.egg-info/SOURCES.txt'\n"}
+[4.710797] (calculator) StdoutLine: {'line': b"writing manifest file '../../build/calculator/calculator.egg-info/SOURCES.txt'\n"}
+[4.710950] (calculator) StdoutLine: {'line': b'running build\n'}
+[4.711067] (calculator) StdoutLine: {'line': b'running build_py\n'}
+[4.711272] (calculator) StdoutLine: {'line': b'running install\n'}
+[4.717908] (calculator) StdoutLine: {'line': b'running install_lib\n'}
+[4.737894] (calculator) StdoutLine: {'line': b'running install_data\n'}
+[4.738083] (calculator) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.758847] (calculator) StdoutLine: {'line': b"removing '/home/vlad/ros2_s/install/calculator/lib/python3.12/site-packages/calculator-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[4.759120] (calculator) StdoutLine: {'line': b'Copying ../../build/calculator/calculator.egg-info to /home/vlad/ros2_s/install/calculator/lib/python3.12/site-packages/calculator-0.0.0-py3.12.egg-info\n'}
+[4.759955] (calculator) StdoutLine: {'line': b'running install_scripts\n'}
+[4.806986] (-) TimerEvent: {}
+[4.895523] (calculator) StdoutLine: {'line': b'Installing sum_client script to /home/vlad/ros2_s/install/calculator/lib/calculator\n'}
+[4.895784] (calculator) StdoutLine: {'line': b'Installing sum_server script to /home/vlad/ros2_s/install/calculator/lib/calculator\n'}
+[4.896174] (calculator) StdoutLine: {'line': b"writing list of installed files to '/home/vlad/ros2_s/build/calculator/install.log'\n"}
+[4.907105] (-) TimerEvent: {}
+[4.922503] (calculator) CommandEnded: {'returncode': 0}
+[4.929527] (calculator) JobEnded: {'identifier': 'calculator', 'rc': 0}
+[4.930026] (-) EventReactorShutdown: {}

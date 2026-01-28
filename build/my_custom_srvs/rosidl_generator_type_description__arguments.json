@@ -1,0 +1,11 @@
+{
+  "package_name": "my_custom_srvs",
+  "output_dir": "/home/vlad/ros2_s/build/my_custom_srvs/rosidl_generator_type_description/my_custom_srvs",
+  "idl_tuples": [
+    "/home/vlad/ros2_s/build/my_custom_srvs/rosidl_adapter/my_custom_srvs:srv/CalculateTwoNumbers.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

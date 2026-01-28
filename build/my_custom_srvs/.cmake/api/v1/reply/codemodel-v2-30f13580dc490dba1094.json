@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-19b7cae93dfa5cc7f987.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "my_custom_srvs__py",
+					"jsonFile" : "directory-my_custom_srvs__py-5f606a7a68158bc46f10.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/vlad/ros2_s/build/my_custom_srvs/my_custom_srvs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "my_custom_srvs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_my_custom_srvs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_my_custom_srvs_egg-3168b8c0bcbaf7e9938e.json",
+					"name" : "ament_cmake_python_build_my_custom_srvs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_my_custom_srvs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_my_custom_srvs-0c8aa2cc3fc63afc34ca.json",
+					"name" : "ament_cmake_python_copy_my_custom_srvs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_custom_srvs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_custom_srvs-904e9f66c21d56806383.json",
+					"name" : "my_custom_srvs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_custom_srvs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_custom_srvs__cpp-356c934c8c5f46040023.json",
+					"name" : "my_custom_srvs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "my_custom_srvs__py::@98e486099025b25de103",
+					"jsonFile" : "target-my_custom_srvs__py-21ae385cf0411ff52d02.json",
+					"name" : "my_custom_srvs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_custom_srvs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_custom_srvs__rosidl_generator_c-8205d454c2f6b4af5578.json",
+					"name" : "my_custom_srvs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_custom_srvs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_custom_srvs__rosidl_generator_py-c31e727a513dd4f2140f.json",
+					"name" : "my_custom_srvs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_custom_srvs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_custom_srvs__rosidl_generator_type_description-1a434f9c1737f56e3a28.json",
+					"name" : "my_custom_srvs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_custom_srvs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_custom_srvs__rosidl_typesupport_c-b12ffb627b9dd9be5aa0.json",
+					"name" : "my_custom_srvs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_custom_srvs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_custom_srvs__rosidl_typesupport_cpp-c030132d0203e837f9a7.json",
+					"name" : "my_custom_srvs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_custom_srvs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_custom_srvs__rosidl_typesupport_fastrtps_c-b238157915cfa3321b10.json",
+					"name" : "my_custom_srvs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_custom_srvs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_custom_srvs__rosidl_typesupport_fastrtps_cpp-0c327ef2db78f7b37cfc.json",
+					"name" : "my_custom_srvs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_custom_srvs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_custom_srvs__rosidl_typesupport_introspection_c-ca2ba6747ab35ff77dfa.json",
+					"name" : "my_custom_srvs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_custom_srvs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_custom_srvs__rosidl_typesupport_introspection_cpp-c24f90c0706f8b1e2b1d.json",
+					"name" : "my_custom_srvs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_custom_srvs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_custom_srvs_s__rosidl_typesupport_c-270cf5325a45e6e3cda9.json",
+					"name" : "my_custom_srvs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_custom_srvs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_custom_srvs_s__rosidl_typesupport_fastrtps_c-5f01f8eb873f339ca6bb.json",
+					"name" : "my_custom_srvs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_custom_srvs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_custom_srvs_s__rosidl_typesupport_introspection_c-ab64f9af2d8dcf80cbfc.json",
+					"name" : "my_custom_srvs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_custom_srvs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_custom_srvs_uninstall-84e1e4f323017f9f7d40.json",
+					"name" : "my_custom_srvs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-dd15fb3066721a191729.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vlad/ros2_s/build/my_custom_srvs",
+		"source" : "/home/vlad/ros2_s/src/my_custom_srvs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

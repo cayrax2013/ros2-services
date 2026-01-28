@@ -1,0 +1,6 @@
+{
+  "package_name": "my_custom_srvs",
+  "non_idl_tuples": [
+    "/home/vlad/ros2_s/src/my_custom_srvs:srv/CalculateTwoNumbers.srv"
+  ]
+}
